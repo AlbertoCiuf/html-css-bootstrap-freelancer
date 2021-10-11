@@ -53,6 +53,7 @@ header ._logo, header ._menu {
 
 .ac_about {
   background-color: #40BC9C;
+  height: 500px;
 }
 
 .ac_contacts .ac_name, .ac_contacts .ac_email, .ac_contacts .ac_phone {
@@ -61,4 +62,17 @@ header ._logo, header ._menu {
 
 .ac_contacts .ac_message-box {
   padding: 30px 0 120px;
+}
+
+footer {
+  height: 300px;
+  color: white;
+  background-color: #3A546D;
+}
+
+.ac_footer-bottom {
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: #2B3E50;
 }
