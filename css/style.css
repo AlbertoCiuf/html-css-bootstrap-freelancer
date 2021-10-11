@@ -11,42 +11,54 @@ header ._logo, header ._menu {
   width: 50%;
 }
 
-._jumbotron {
+.ac_jumbotron {
   background-color: #40BC9C;
   height: 300px;
 }
 
-._portfolio {
+.ac_portfolio {
   background-color: #fff;
 }
 
-._box {
+.ac_box {
   height: 300px;
   border-radius: 10px;
   margin: 10px;
   color: white;
 }
 
-._red {
+.ac_red {
   background-color: #B94B63;
 }
 
-._teal {
+.ac_teal {
   background-color: #36A4B6;
 }
 
-._black {
+.ac_black {
   background-color: #140F0F;
 }
 
-._cyan {
+.ac_cyan {
   background-color: #2883C1;
 }
 
-._blue {
+.ac_blue {
   background-color: #0D38B5;
 }
 
-._beige {
+.ac_beige {
   background-color: #CBB2A3;
+}
+
+.ac_about {
+  background-color: #40BC9C;
+}
+
+.ac_contacts .ac_name, .ac_contacts .ac_email, .ac_contacts .ac_phone {
+  padding: 20px 0;
+}
+
+.ac_contacts .ac_message-box {
+  padding: 30px 0 120px;
 }
