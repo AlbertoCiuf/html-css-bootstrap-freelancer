@@ -1,0 +1,17 @@
+
+/*le altezze delle sezioni sono provvisorie*/
+header {
+  height: 100px;
+  background-color: #2B3E50;
+}
+
+
+header ._logo, header ._menu {
+  height: 50px;
+  width: 50%;
+}
+
+._jumbotron {
+  background-color: #40BC9C;
+  height: 300px;
+}
