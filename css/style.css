@@ -15,3 +15,38 @@ header ._logo, header ._menu {
   background-color: #40BC9C;
   height: 300px;
 }
+
+._portfolio {
+  background-color: #fff;
+}
+
+._box {
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  color: white;
+}
+
+._red {
+  background-color: #B94B63;
+}
+
+._teal {
+  background-color: #36A4B6;
+}
+
+._black {
+  background-color: #140F0F;
+}
+
+._cyan {
+  background-color: #2883C1;
+}
+
+._blue {
+  background-color: #0D38B5;
+}
+
+._beige {
+  background-color: #CBB2A3;
+}
