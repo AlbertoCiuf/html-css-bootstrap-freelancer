@@ -41,49 +41,62 @@ header .ac_logo, header .ac_menu-lg {
 .ac_jumbotron {
   background-color: #40BC9C;
   margin-top: 80px;
-  height: 300px;
 }
+
+.ac_jumbo-img {
+  padding-top: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+.ac_jumbo-img img {
+  width: 100%;
+}
+
+.ac_jumbo-title {
+  color: white;
+  padding-top: 25px;
+}
+
+.ac_jobs {
+  font-size: 14px;
+}
+
+
+
+
 
 .ac_portfolio {
   background-color: #fff;
 }
 
-/* .ac_box {
-  height: 300px;
-  border-radius: 10px;
+.ac_portfolio > h2 {
+  padding-top: 40px;
+}
+
+ .ac_box {
   margin: 10px;
-  color: white;
 }
 
-.ac_red {
-  background-color: #B94B63;
+.ac_box img {
+  width: calc(100% - 10px);
+  border-radius: 10px;
+
 }
 
-.ac_teal {
-  background-color: #36A4B6;
-}
-
-.ac_black {
-  background-color: #140F0F;
-}
-
-.ac_cyan {
-  background-color: #2883C1;
-}
-
-.ac_blue {
-  background-color: #0D38B5;
-}
-
-.ac_beige {
-  background-color: #CBB2A3;
-} */
 
 .ac_about {
   background-color: #40BC9C;
   color: white;
-  height: 500px;
 }
+
+.ac_about > h2 {
+  padding-top: 40px;
+}
+
+/* .ac_about p {
+  padding: 20px 120px;
+} */
 
 .ac_contacts .ac_name, .ac_contacts .ac_email, .ac_contacts .ac_phone {
   padding: 20px 0;
