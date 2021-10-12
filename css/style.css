@@ -90,24 +90,52 @@ header .ac_logo, header .ac_menu-lg {
   color: white;
 }
 
-.ac_about > h2 {
-  padding-top: 40px;
+.ac_about h2 {
+  padding-top: 50px;
+
 }
 
-/* .ac_about p {
-  padding: 20px 120px;
-} */
-
-.ac_contacts .ac_name, .ac_contacts .ac_email, .ac_contacts .ac_phone {
-  padding: 20px 0;
+.ac_about p {
+  padding-bottom: 50px;
 }
 
-.ac_contacts .ac_message-box {
-  padding: 30px 0 120px;
+.ac_button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
 }
 
-footer {
-  height: 300px;
+.ac_contacts h2 {
+  padding-top: 50px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.ac_custom-border {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0;
+}
+
+::placeholder {
+  color: #0C344D !important;
+}
+
+form input, form textarea {
+  padding-left: 0 !important;
+}
+
+.ac_bg-green {
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+}
+
+
+
+footer{
   color: white;
   background-color: #3A546D;
 }
@@ -118,3 +146,6 @@ footer {
   color: white;
   background-color: #2B3E50;
 }
+
+
+
