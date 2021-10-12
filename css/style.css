@@ -1,5 +1,3 @@
-
-/*le altezze delle sezioni sono provvisorie*/
 header {
   height: 80px;
   background-color: #2B3E50;
@@ -45,7 +43,6 @@ header .ac_logo, header .ac_menu-lg {
 
 .ac_jumbo-img {
   padding-top: 20px;
-  height: 150px;
   width: 150px;
 }
 
@@ -55,16 +52,12 @@ header .ac_logo, header .ac_menu-lg {
 
 .ac_jumbo-title {
   color: white;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 .ac_jobs {
   font-size: 14px;
 }
-
-
-
-
 
 .ac_portfolio {
   background-color: #fff;
@@ -81,9 +74,7 @@ header .ac_logo, header .ac_menu-lg {
 .ac_box img {
   width: calc(100% - 10px);
   border-radius: 10px;
-
 }
-
 
 .ac_about {
   background-color: #40BC9C;
@@ -92,7 +83,6 @@ header .ac_logo, header .ac_menu-lg {
 
 .ac_about h2 {
   padding-top: 50px;
-
 }
 
 .ac_about p {
@@ -133,8 +123,6 @@ form input, form textarea {
   border-color: #1ABC9C;
 }
 
-
-
 footer{
   color: white;
   background-color: #3A546D;
@@ -146,6 +134,3 @@ footer{
   color: white;
   background-color: #2B3E50;
 }
-
-
-
