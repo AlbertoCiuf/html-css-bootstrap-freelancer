@@ -67,13 +67,37 @@ header .ac_logo, header .ac_menu-lg {
   padding-top: 40px;
 }
 
- .ac_box {
+ .ac_box .ac_box-img {
+  position: relative;
   margin: 10px;
 }
 
-.ac_box img {
+.ac_box .ac_box-img img {
   width: calc(100% - 10px);
   border-radius: 10px;
+  display: block;
+}
+
+.ac_box .ac_box-img .ac_overlay {
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(26,188,156,.7);
+  top: 0;
+  left: 0;
+  font-size: 64px;
+  width: calc(100% - 10px);
+  height: 100%;
+  border-radius: 10px;
+
+
+}
+
+.ac_box .ac_box-img:hover {
+  cursor: pointer;
+}
+
+.ac_box .ac_box-img:hover .ac_overlay {
+  opacity: 1;
 }
 
 .ac_about {
@@ -94,6 +118,14 @@ header .ac_logo, header .ac_menu-lg {
   border-radius: 10px;
   border: 1px solid white;
   cursor: pointer;
+}
+ 
+.ac_button:hover {
+  background-color: #fff;
+}
+
+.ac_button:hover span, .ac_button:hover i {
+  color: #2B3D4F;
 }
 
 .ac_contacts h2 {
