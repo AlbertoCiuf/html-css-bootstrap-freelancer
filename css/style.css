@@ -123,9 +123,27 @@ form input, form textarea {
   border-color: #1ABC9C;
 }
 
-footer{
+footer {
   color: white;
   background-color: #3A546D;
+}
+
+.ac_footer-top .ac_footer-left, .ac_footer-top .ac_footer-mid, .ac_footer-top .ac_footer-right {
+  padding-top: 30px !important;
+}
+
+.ac_footer-mid .ac_social-icon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 25px;
+  margin: 5px;
+}
+
+.ac_text-green, ._ac-text-green:active, ._ac-text-green:hover {
+  color: #3AAD95 !important;
 }
 
 .ac_footer-bottom {
@@ -134,3 +152,4 @@ footer{
   color: white;
   background-color: #2B3E50;
 }
+
