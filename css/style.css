@@ -8,6 +8,27 @@ header {
   margin: 0 auto;
 }
 
+
+.ac_r_container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.ac_line {
+  width: 15%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.ac_black {
+  background-color: #000;
+}
+
+.fa-star {
+  font-size: 24px;
+}
+
 header .ac_logo, header .ac_menu-lg {
   height: 80px;
   width: 50%;
@@ -88,8 +109,6 @@ header .ac_logo, header .ac_menu-lg {
   width: calc(100% - 10px);
   height: 100%;
   border-radius: 10px;
-
-
 }
 
 .ac_box .ac_box-img:hover {
