@@ -41,9 +41,17 @@ header .ac_logo, header .ac_menu-lg {
   color: white;
 }
 
+.ac_logo span {
+  cursor: pointer;
+}
+
 .ac_menu-lg ul li a{
   color: white;
   padding-left: 10px;
+}
+
+.ac_menu-lg ul li:hover a {
+  color: #3AAD95;
 }
 
 .ac_hamburger-menu i {
