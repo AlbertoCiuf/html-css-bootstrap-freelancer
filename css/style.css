@@ -71,6 +71,11 @@ header .ac_logo, header .ac_menu-lg {
 .ac_jumbotron {
   background-color: #40BC9C;
   margin-top: 80px;
+  text-align: center;
+}
+
+.ac_jumbo-title h1 {
+  font-size: 50px;
 }
 
 .ac_jumbo-img {
@@ -80,11 +85,6 @@ header .ac_logo, header .ac_menu-lg {
 
 .ac_jumbo-img img {
   width: 100%;
-}
-
-.ac_jumbo-title {
-  color: white;
-  padding-top: 10px;
 }
 
 .ac_jobs {
